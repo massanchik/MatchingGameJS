@@ -1,3 +1,5 @@
+.idea/
+.code/
 .cache/
 dist/
 node_modules/
