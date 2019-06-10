@@ -1,0 +1,39 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    user-select: none;
+}
+
+aspect = {
+    w: 9vh,
+    h: 16vh
+}
+
+board = {
+    w: (100vh / (aspect.h / aspect.w)),
+    h: 100vh
+}
+
+gem = {
+    size: board.w / 9vh
+}
+
+.board {
+    position: relative;
+    width: board.w;
+    height: board.h;
+    background-color: #eee;
+    margin: 0 auto;
+
+    .gem {
+        position: absolute;
+        background-color: #000;
+        border: 1px solid #fff;
+        width: gem.size;
+        height: gem.size;
+        top: 0;
+        transition-property: top;
+        transition-duration: 0.2s;
+    }
+}
