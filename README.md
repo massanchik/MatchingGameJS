@@ -5,7 +5,7 @@ Simple Match {N} game written in ES6
 
 ## Setup project
 ```shell
-npm install -g parcel-bundler
+npm i -g parcel-bundler
 npm i
 ```
 
