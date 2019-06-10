@@ -1,6 +1,5 @@
 export default class Gem {
     constructor(x, y, color) {
-        this.invalidColor = 'black';
         this.colorNames = ['red', 'green', 'blue', 'yellow', 'violet'];
         this.colors = {
             red: '#c44',
