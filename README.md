@@ -3,9 +3,7 @@ Simple Match {N} game written in ES6
 
 ![](matching-game-js.gif)
 
-## Setup Parcel
-1.  Install with yarn:
-
+## Setup project
 ```shell
 npm install -g parcel-bundler
 npm i
