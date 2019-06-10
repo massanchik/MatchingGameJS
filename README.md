@@ -1,5 +1,5 @@
 # MatchingGameJS
-Simple Match {N} game written in ES6
+Simple Match {N} game written in HTML + CSS(stylus) + JS(ES6)
 
 ![](matching-game-js.gif)
 
